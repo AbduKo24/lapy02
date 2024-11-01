@@ -1,5 +1,16 @@
 # lapy02
 
+# Flowchart Diskon Tiket
+![flowchart](   .png)
+
+# Flowchart Kalkulator
+![flowchart](   .png)
+
+
+
+
+
+
 # Progam Harga Tiket
    # Codingan
 '''python
