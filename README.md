@@ -77,4 +77,14 @@ Berikut adalah penjelasan tentang kode yang Anda berikan:
 Kesimpulan
 Program ini sederhana, meminta pengguna memilih jenis tiket dan memvalidasi pilihan tersebut sebelum mencetak harga tiket yang sesuai. Namun, meskipun ada variabel untuk diskon, diskon tersebut tidak diterapkan dalam kode saat ini.
 
+# Program Kalkulator
+
+
+
+
+
+
+
+
+
 
