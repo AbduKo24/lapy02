@@ -1,7 +1,7 @@
 # lapy02
 
 # Flowchart Diskon Tiket
-![flowchart](   .png)
+![flowchart](flowcharttiket.png)
 
 # Flowchart Kalkulator
 ![flowchart](   .png)
