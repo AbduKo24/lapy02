@@ -79,7 +79,54 @@ Program ini sederhana, meminta pengguna memilih jenis tiket dan memvalidasi pili
 
 # Program Kalkulator
 
+def kalkulator(a, b, operator):
+    if operator == '+':
+        return a + b
+    elif operator == '-':
+        return a - b
+    elif operator == '*':
+        return a * b
+    elif operator == '/':
+        return a / b
+    else:
+        print("Input tidak valid")
+        exit()
+    
+a = int(input("Masukan angka pertama: "))
+b = int(input("Masukan angka kedua: "))
+operator = input ("Masukan operator '+', '-', '*', atau '/'") 
 
+hasil = kalkulator(a, b, operator)
+print(f"Hasilnya adalah : {hasil}")
+
+## Penjelasan:
+Fungsi kalkulator(a, b, operator)
+
+    Definisi Fungsi: Fungsi kalkulator menerima tiga parameter: dua angka (a dan b) dan sebuah string (operator) yang menunjukkan operasi yang akan dilakukan.
+
+    Pengkondisian:
+        Penjumlahan: Jika operator adalah '+', fungsi mengembalikan hasil penjumlahan a + b.
+        Pengurangan: Jika operator adalah '-', fungsi mengembalikan hasil pengurangan a - b.
+        Perkalian: Jika operator adalah '*', fungsi mengembalikan hasil perkalian a * b.
+        Pembagian: Jika operator adalah '/', fungsi mengembalikan hasil pembagian a / b.
+        Input Tidak Valid: Jika operator tidak cocok dengan salah satu dari empat pilihan di atas, fungsi mencetak pesan "Input tidak valid" dan menghentikan program menggunakan exit().
+
+Input dan Output
+
+    Input Pengguna:
+        a = int(input("Masukan angka pertama: ")): Mengambil input dari pengguna dan mengonversinya menjadi integer untuk angka pertama.
+        b = int(input("Masukan angka kedua: ")): Mengambil input untuk angka kedua dengan cara yang sama.
+        operator = input("Masukan operator '+', '-', '*', atau '/'"): Mengambil input untuk operator.
+
+    Memanggil Fungsi:
+        hasil = kalkulator(a, b, operator): Memanggil fungsi kalkulator dengan argumen yang telah diambil dari input pengguna dan menyimpan hasilnya dalam variabel hasil.
+
+    Menampilkan Hasil:
+        print(f"Hasilnya adalah : {hasil}"): Mencetak hasil perhitungan ke layar dalam format yang telah ditentukan.
+
+Ringkasan
+
+Kode ini adalah sebuah kalkulator sederhana yang bisa melakukan operasi dasar (penjumlahan, pengurangan, perkalian, dan pembagian) berdasarkan input pengguna. Jika pengguna memasukkan operator yang tidak valid, program akan menghentikan eksekusinya dengan memberikan pesan kesalahan.
 
 
 
