@@ -6,7 +6,7 @@
 ![flowchart](flowcharttiket.png)
 
 # Flowchart Kalkulator
-![flowchart](   .png)
+![flowchart](Flowchartkalkulator.png)
 
 
 
