@@ -1,3 +1,5 @@
+## Nama:Muhamad abdu
+## Kelas:TI.24.A1
 # lapy02
 
 # Flowchart Diskon Tiket
